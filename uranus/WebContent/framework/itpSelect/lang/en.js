@@ -1,0 +1,17 @@
+﻿MsgtitleForm = "Select Data";
+MsgtitleKeyWord = "Keywords";
+MsgtitleHit = "Please enter query criteria";
+MsgtitleHitTips = "";
+MsgSearch = "Query";
+MsgSelect = "Select";
+MsgAll = "All";
+MsgFirstPage = "FirstPage";
+MsgNextPage = "NextPage";
+MsgPrePage = "PreviousPage";
+MsgLastPage = "LastPage";
+MsgNoData = "No result for some keywords!";
+MsgDataFormatErr = "Returned data format error!";
+MsgGetDataErr = "Sorry, system error!";
+MsgClassErr = "Please set the class name and the function name for the control first!";
+MsgNoKeyWord = "Please enter the keywords, and press Enter key or click Query.";
+MsgPageFormat = "Page {pagenow}/{pagemax}, {pagemaxnum} Records, {selectpagesize}Rows/Page {firstpage}{prepage}{gotext}{gopage}{nextpage}{lastpage}";

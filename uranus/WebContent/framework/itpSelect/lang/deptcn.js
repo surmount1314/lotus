@@ -1,0 +1,17 @@
+﻿MsgtitleForm = "部门选择";
+MsgtitleKeyWord = "部门";
+MsgtitleHit = "请填写查询条件";
+MsgtitleHitTips = "请输入部门名称。";
+MsgSearch = "查询";
+MsgSelect = "选择";
+MsgAll = "全部";
+MsgFirstPage = "首页";
+MsgNextPage = "下一页";
+MsgPrePage = "上一页";
+MsgLastPage = "末页";
+MsgNoData = "没有符合条件的部门信息，请重新输入！";
+MsgGetDataErr = "对不起，系统取数据出错！";
+MsgDataFormatErr = "返回数据格式不正确";
+MsgClassErr = "请先设置控件需要调用的类名以及方法名。";
+MsgNoKeyWord = "请输入查询条件！";
+MsgPageFormat = "第{pagenow}页/共{pagemax}页 共{pagemaxnum}条记录 每页{selectpagesize}行{firstpage}{prepage}{gotext}{gopage}{nextpage}{lastpage}";
