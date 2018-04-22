@@ -52,3 +52,8 @@
 //		}
 //	}
 //} // /:~
+//: annotations/InterfaceExtractorProcessor.java
+// APT-based annotation processing.
+// {Exec: apt -factory
+// annotations.InterfaceExtractorProcessorFactory
+// Multiplier.java -s ../annotations}
