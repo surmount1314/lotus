@@ -1,0 +1,2 @@
+跳过测试
+mvn install -Dmaven.test.skip=true -Pdev

@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta content="C#" name="CODE_LANGUAGE">
+    <meta content="JavaScript" name="vs_defaultClientScript">
+    <meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title></title>
+    <link type="text/css" href="cssCn.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="ajax.js"></script>
+    <script type="text/javascript" src="SingleSelect.js"></script>
+
+</head>
+<body>
+    <form id="form1" action="" method="post">
+    <table id="tb_content" cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody>
+            <tr>
+                <td valign="top">
+                    <table cellpadding="0" cellspacing="1" width="100%" class="tb_search">
+                        <tr>
+                            <td colspan="2" class="search">
+                                <span id="MsgtitleHit"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px;" width="20%" class="td_title" id="MsgtitleKeyWord">
+                            </td>
+                            <td style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; height: 20px;margin:0px;">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                        <td>
+                                            <input title="" type="text" id="searchKey" class="txt_200" style="border: #7f9db9 1px solid;
+                                                width: 206px; height: 21px;" value="" />
+                                        </td>
+                                        <td style="padding-left: 8px;" valign="bottom">
+                                            <input id="btnSearch" type="button" value="查询" class="button" onclick="searchresult(1);" />
+                                            <img src="busy.gif" id="busy" style="display: none" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="1" class="tb_datalist" style="display: none;
+                        width: 100%;" id="errmsgtable">
+                        <thead>
+                            <tr class="tr_title">
+                                <td>
+                                </td>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <font id="errmsg" color="red"></font>
+                                    </td>
+                                </tr>
+                        </thead>
+                    </table>
+                        <table id="Table1" cellpadding="0" cellspacing="1" class="tb_datalist" style="margin-bottom:0px;">
+                            <thead id="datathead">
+                            </thead>
+                        </table>
+                        <div id="tableContainer" class="tableContainer" style="height: 270px;margin-bottom:0px;" style="display: none;">
+                            <table cellpadding="0" cellspacing="1" class="tb_datalist" style="display: none;margin-bottom:0px;"
+                                id="searchresultdata">
+                                <tbody id="databody" style="width: 100%">
+                                </tbody>
+                            </table>
+                        </div>
+                        <table id="pageinfotable" cellpadding="0" cellspacing="1" class="tb_datalist" style="display: none;margin-top:0px;">
+                            <tr id="pageinfo" class="tr_pagenumber">
+                                <td id="pagetd" colspan="0">
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+
+    <script type="text/javascript" language="javascript">
+        // ie6下必须在这里增加才可以修改标题头
+        document.title = MsgtitleForm;
+    </script>
+
+</body>
+</html>
